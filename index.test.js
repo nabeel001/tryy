@@ -1,7 +1,7 @@
 const { test } = require("node:test");
 const assert = require("node:assert");
 const request = require("supertest");
-const app = require("../index");
+const app = require("./index.js");
 
 test("GET / returns a hello message", async () => {
   const res = await request(app).get("/");
