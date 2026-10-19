@@ -26,6 +26,7 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-latest
+    environment: prod-tryy
     steps:
       - name: Trigger Render deploy
         env:
