@@ -1,0 +1,16 @@
+{
+  "name": "demo-api",
+  "version": "1.0.0",
+  "description": "Simple Express API for the Git & GitHub workshop",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "node --watch App.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
