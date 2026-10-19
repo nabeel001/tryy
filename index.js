@@ -6,10 +6,10 @@ app.get("/", (req, res) => {
   res.json({ message: "Hello from the Workshop API" });
 });
 
+
 app.get("/bye", (req, res) => {
   res.json({ message: "ByeBye from the Workshop API" });
 });
-
 
 const PORT = process.env.PORT || 3000;
 
